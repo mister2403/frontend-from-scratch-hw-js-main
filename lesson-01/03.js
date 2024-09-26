@@ -10,7 +10,8 @@ while ( currNumber < 20 ) {
     currNumber++;
 
     };
-    console.log(oddSumNumber);
+    let sum = oddSumNumber;
+    console.log(sum);
 
 /* Используйте цикл while для нахождения суммы всех нечётных чисел от 1 до 20.
   Результат вычислений сохраните в переменной sum.

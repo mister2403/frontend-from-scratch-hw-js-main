@@ -1,4 +1,4 @@
-let factNum = prompt("Введите искомое значение", 10);
+let factNum = 10;
 let result = 1;
 let i = 0;
 while ( i < factNum) { 
