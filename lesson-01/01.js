@@ -1,10 +1,12 @@
-let firstNumb = 0;
 let sum = 0;
-while ( firstNumb < 20) {
-firstNumb++;
-sum += firstNumb;
+let i = 1;
+
+while ( i <= 20) {
+    sum += i;
+   
+    i++;   
 } 
-console.log(sum);
+console.log(sum)
 
 // С помощью цикла while найдите сумму чисел от 1 до 20
 // Результат присвойте переменной sum

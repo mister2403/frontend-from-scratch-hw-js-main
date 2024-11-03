@@ -1,12 +1,13 @@
 let factNum = 10;
 let result = 1;
-let i = 0;
-while ( i < factNum) { 
-    i++;
+let i = 1;
+while ( i <= factNum) { 
     result = result * i;
+
+    i++;  
 }
-let factorial = result;
-console.log(factorial);
+let factorial = result
+console.log(factorial)
 
 /* С помощью цикла while найдите факториал числа 10 и присвойте его переменной factorial
 

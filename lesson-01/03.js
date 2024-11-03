@@ -1,17 +1,15 @@
-let currNumber = 0;
-let oddSumNumber = 0;
+let currNumb = 0;
+let oddSumNumb = 0;
 
-while ( currNumber < 20 ) {
+while ( currNumb <= 20 ) {
 
-    if (currNumber % 2 > 0){
-        oddSumNumber += currNumber;
+    if (currNumb % 2 > 0){
+        oddSumNumb += currNumb;
     }
-    
-    currNumber++;
+       currNumb++;
 
     };
-    let sum = oddSumNumber;
-    console.log(sum);
+    console.log(oddSumNumb);
 
 /* Используйте цикл while для нахождения суммы всех нечётных чисел от 1 до 20.
   Результат вычислений сохраните в переменной sum.
