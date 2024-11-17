@@ -17,3 +17,4 @@ let isAccess = ((isAdmin||isVerifiedUser) && (hasSpecialPermission||hasTemporary
 console.log(isAccess);
 
 // your code
+
