@@ -4,6 +4,6 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = +prompt("Введите к-л балов студента", 70);
+const score = 70;
 const grade = score >= 90 ? 'A': score >= 80 ? 'B': score >= 70 ? 'C': score >= 50 ? 'D': 'F';
 console.log(grade);
