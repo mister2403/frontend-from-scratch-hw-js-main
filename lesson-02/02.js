@@ -10,7 +10,7 @@
 let dice1 = Math.ceil(Math.random()*6); // your code
 let dice2 = Math.ceil(Math.random()*6);// you code
 let isWinningDouble = false // your code
-                
+
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)
 

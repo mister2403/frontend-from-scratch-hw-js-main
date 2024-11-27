@@ -4,11 +4,15 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = +prompt("Введите к-л набранных балов студента", 70);
+const score = 70;
     
-if(score < 0 || score < 100) {
-    const grade = score >= 90 ? 'A': score >= 80 ? 'B': score >= 70 ? 'C': score >= 50 ? 'D': 'F';
-    console.log(grade);
-} else {
-console.log("Ошибка!!Введите корректное значение!!") 
-}
+    if(score < 0 || score > 100) {
+        alert("Ошибка!!Введите корректное значение!!")
+        } 
+        else if (score % 1 > 0) {
+            alert("Ошибка!!Введите корректное значение!!")
+        }
+            else {    
+            let grade = score < 50 ? 'F': score < 70 ? 'D': score < 80 ? 'C': score < 90 ? 'B': 'A';
+            console.log(grade);
+            }
