@@ -5,14 +5,17 @@
  */
 
 const score = 70;
-    
-    if(score < 0 || score > 100) {
-        alert("Ошибка!!Введите корректное значение!!")
-        } 
-        else if (score % 1 > 0) {
-            alert("Ошибка!!Введите корректное значение!!")
-        }
-            else {    
-            let grade = score < 50 ? 'F': score < 70 ? 'D': score < 80 ? 'C': score < 90 ? 'B': 'A';
-            console.log(grade);
-            }
+
+if (score >= 0 && score <= 100) {
+  let grade =
+    score < 50
+      ? "F"
+      : score < 70
+      ? "D"
+      : score < 80
+      ? "C"
+      : score < 90
+      ? "B"
+      : "A";
+  console.log(grade);
+}
