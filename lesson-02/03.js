@@ -5,9 +5,9 @@
  */
 
 const score = 70;
-
+let grade;
 if (score >= 0 && score <= 100) {
-  let grade =
+  grade =
     score < 50
       ? "F"
       : score < 70
