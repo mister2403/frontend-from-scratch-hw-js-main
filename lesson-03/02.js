@@ -4,9 +4,11 @@
 function isEven(number) {
     const check = number % 2;
     if (check === 0) {
-      console.log(check); 
+        return true; 
     } else {
-      console.log(check);
+        return false;
     }
   }
-
+  
+  let result = isEven(8);
+  console.log(result)
