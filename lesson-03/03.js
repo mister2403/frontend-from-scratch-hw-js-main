@@ -7,5 +7,5 @@ function findLargest(a, b, c) {
   return max;
 }
 
-let result = findLargest(15, 3, 100);
-console.log(result)
+// let result = findLargest(15, 3, 100);
+// console.log(result)

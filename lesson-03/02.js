@@ -10,5 +10,5 @@ function isEven(number) {
     }
   }
   
-  let result = isEven(8);
-  console.log(result)
+//   let result = isEven(8);
+//   console.log(result)
